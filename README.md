@@ -19,7 +19,7 @@ formalize eliminates cross browser bugs, inconsistencies across systems and appl
 
 | Name | Description | Link |
 |:-----------|:------------|:------------|
-| Default | Includes all features. | [Try it on CodePen]() |
+| Default | Includes all features. | [Try it on CodePen](http://codepen.io/electerious/pen/ENvEOb) |
 
 ## Features
 
