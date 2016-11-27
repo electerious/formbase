@@ -4,6 +4,8 @@
 
 Better default styles for common input elements.
 
+![formalize](https://l.electerious.com/uploads/big/82bdef77407ed1cde763a83b34698831.png)
+
 formalize eliminates cross browser bugs, inconsistencies across systems and applies a beautiful default styling to several input elements.
 
 ## Contents
