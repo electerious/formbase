@@ -1,0 +1,31 @@
+{
+  "name": "formalize",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "",
+  "main": "dist/formalize.min.css",
+  "keywords": [
+    "form",
+    "text",
+    "textbox",
+    "textarea",
+    "input",
+    "checkbox",
+    "radio",
+    "control",
+    "custom"
+  ],
+  "ignore": [
+    "**/.*",
+    "demos",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/electerious/formalize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/formalize.git"
+  }
+}
