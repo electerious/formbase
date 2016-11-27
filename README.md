@@ -1,12 +1,12 @@
-# formalize
+# formbase
 
-[![Dependencies](https://david-dm.org/electerious/formalize.svg)](https://david-dm.org/electerious/formalize.svg#info=dependencies) [![Donate via Flattr](https://img.shields.io/badge/flattr-donate-009cde.svg)](https://flattr.com/profile/electerious) [![Donate via PayPal](https://img.shields.io/badge/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
+[![Dependencies](https://david-dm.org/electerious/formbase.svg)](https://david-dm.org/electerious/formbase.svg#info=dependencies) [![Donate via Flattr](https://img.shields.io/badge/flattr-donate-009cde.svg)](https://flattr.com/profile/electerious) [![Donate via PayPal](https://img.shields.io/badge/paypal-donate-009cde.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CYKBESW577YWE)
 
 Better default styles for common input elements.
 
-![formalize](https://l.electerious.com/uploads/big/82bdef77407ed1cde763a83b34698831.png)
+![formbase](https://l.electerious.com/uploads/big/82bdef77407ed1cde763a83b34698831.png)
 
-formalize eliminates cross browser bugs, inconsistencies across systems and applies a beautiful default styling to several input elements.
+formbase eliminates cross browser bugs, inconsistencies across systems and applies a beautiful default styling to several input elements.
 
 ## Contents
 
@@ -30,20 +30,20 @@ formalize eliminates cross browser bugs, inconsistencies across systems and appl
 
 ## Setup
 
-We recommend to install formalize using [Bower](https://bower.io/) or [npm](https://npmjs.com).
+We recommend to install formbase using [Bower](https://bower.io/) or [npm](https://npmjs.com).
 
 ```sh
-bower install @electerious/formalize
+bower install formbase
 ```
 
 ```sh
-npm install @electerious/formalize
+npm install formbase
 ```
 
 Include the CSS file in the `head`…
 
 ```html
-<link rel="stylesheet" href="dist/formalize.min.css">
+<link rel="stylesheet" href="dist/formbase.min.css">
 ```
 
 …or import the SASS file directly:

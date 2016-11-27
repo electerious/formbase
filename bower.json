@@ -1,10 +1,10 @@
 {
-  "name": "@electerious/formalize",
+  "name": "formbase",
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
   ],
   "description": "Better default styles for common input elements",
-  "main": "dist/formalize.min.css",
+  "main": "dist/formbase.min.css",
   "keywords": [
     "form",
     "text",
@@ -23,9 +23,9 @@
     "package.json"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/electerious/formalize",
+  "homepage": "https://github.com/electerious/formbase",
   "repository": {
     "type": "git",
-    "url": "https://github.com/electerious/formalize.git"
+    "url": "https://github.com/electerious/formbase.git"
   }
 }

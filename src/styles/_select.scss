@@ -2,32 +2,32 @@
 
 	// Ensure that color is written in hex and escape the color,
 	// to ensure that it's working in url().
-	$default: inspect(ie_hex_str($formalize__default));
+	$default: inspect(ie_hex_str($formbase__default));
 	$default: '%23' + str_slice($default, 2);
 
 	appearance: none;
 	box-sizing: border-box;
-	margin: 0 0 $formalize__gutter/2;
-	padding: $formalize__gutter/3;
+	margin: 0 0 $formbase__gutter/2;
+	padding: $formbase__gutter/3;
 	width: 100%;
 	background: white;
 	background-image: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="512" height="512" viewBox="0 0 512 512" xml:space="preserve"><path fill="${ $default }" d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>');
 	background-size: 12px;
 	background-repeat: no-repeat;
-	background-position: calc(100% - #{ $formalize__gutter/3 }) center;
-	border: 1px solid $formalize__default;
+	background-position: calc(100% - #{ $formbase__gutter/3 }) center;
+	border: 1px solid $formbase__default;
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05);
 	border-radius: 0;
 	outline: 0;
 
 	&[disabled] {
-		border-color: ligthen($formalize__default, 10%);
+		border-color: ligthen($formbase__default, 10%);
 		background-color: darken(white, 5%);
 		box-shadow: none;
 	}
 
 	&:focus {
-		border-color: $formalize__active;
+		border-color: $formbase__active;
 	}
 
 	&::-ms-expand {

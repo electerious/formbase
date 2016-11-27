@@ -3,24 +3,24 @@
 	appearance: none;
 	box-sizing: border-box;
 	width: 100%;
-	margin: 0 0 $formalize__gutter/2;
-	padding: $formalize__gutter/3;
+	margin: 0 0 $formbase__gutter/2;
+	padding: $formbase__gutter/3;
 	background: white;
-	border: 1px solid $formalize__default;
+	border: 1px solid $formbase__default;
 	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05);
 	border-radius: 0;
 	outline: none;
 	resize: vertical;
-	transition: border-color $formalize__duration $formalize__timing;
+	transition: border-color $formbase__duration $formbase__timing;
 
 	&[disabled] {
-		border-color: ligthen($formalize__default, 10%);
+		border-color: ligthen($formbase__default, 10%);
 		background-color: darken(white, 5%);
 		box-shadow: none;
 	}
 
 	&:focus {
-		border-color: $formalize__active;
+		border-color: $formbase__active;
 	}
 
 }

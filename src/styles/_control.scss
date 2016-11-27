@@ -4,10 +4,10 @@
 
 	// Ensure that color is written in hex and escape the color,
 	// to ensure that it's working in url().
-	$default: inspect(ie_hex_str($formalize__default));
+	$default: inspect(ie_hex_str($formbase__default));
 	$default: '%23' + str_slice($default, 2);
 
-	margin: 0 0 $formalize__gutter/2;
+	margin: 0 0 $formbase__gutter/2;
 	box-sizing: border-box;
 
 	// Input -------------------------------------------------------------- //
@@ -18,7 +18,7 @@
 	// Label -------------------------------------------------------------- //
 	&__label {
 		position: relative;
-		padding-left: calc(#{ $size } + #{ $formalize__gutter/3 });
+		padding-left: calc(#{ $size } + #{ $formbase__gutter/3 });
 
 		&::before {
 			content: '';
@@ -27,12 +27,12 @@
 			left: 0;
 			width: $size;
 			height: $size;
-			border: 1px solid $formalize__default;
+			border: 1px solid $formbase__default;
 			box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05);
 			background-size: 0;
 			background-repeat: no-repeat;
 			background-position: center;
-			transition: background-size $formalize__duration $formalize__timing;
+			transition: background-size $formbase__duration $formbase__timing;
 		}
 	}
 
@@ -47,7 +47,7 @@
 
 	&__input[type='radio'][disabled] + &__label::before,
 	&__input[type='checkbox'][disabled] + &__label::before {
-		border-color: ligthen($formalize__default, 10%);
+		border-color: ligthen($formbase__default, 10%);
 		background-color: darken(white, 5%);
 		box-shadow: none;
 	}
