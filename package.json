@@ -5,7 +5,7 @@
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
   ],
-  "description": "",
+  "description": "Better default styles for common input elements",
   "main": "dist/formalize.min.css",
   "keywords": [
     "form",
