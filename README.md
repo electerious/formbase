@@ -33,11 +33,11 @@ formalize eliminates cross browser bugs, inconsistencies across systems and appl
 We recommend to install formalize using [Bower](https://bower.io/) or [npm](https://npmjs.com).
 
 ```sh
-bower install formalize
+bower install @electerious/formalize
 ```
 
 ```sh
-npm install formalize
+npm install @electerious/formalize
 ```
 
 Include the CSS file in the `head`…
