@@ -1,4 +1,4 @@
-.select {
+.#{ $formbase__prefix }select {
 
 	// Ensure that color is written in hex and escape the color,
 	// to ensure that it's working in url().
