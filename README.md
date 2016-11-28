@@ -14,6 +14,7 @@ formbase eliminates cross browser bugs, inconsistencies across systems and appli
 - [Features](#features)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Options](#options)
 
 ## Demos
 
@@ -92,4 +93,20 @@ Include the CSS file in the `head`…
 	<input class="control__input" id="checkbox" type="checkbox">
 	<label class="control__label" for="checkbox">Checkbox</label>
 </div>
+```
+
+## Options
+
+Import `src/styles/main.scss` directly to customize formbase:
+
+```scss
+$formbase__prefix   : ''; // Class name prefix
+$formbase__gutter   : 1.8rem; // Base size for margin and padding
+$formbase__default  : #bbb; // Default color
+$formbase__active   : #0c69d6; // Active highlight color
+$formbase__shadow   : inset 0 1px 3px rgba(0, 0, 0, .05); // Shadow styling
+$formbase__duration : .3s; // Transition duration
+$formbase__timing   : ease; // Transition timing
+
+@import "src/styles/main";
 ```
