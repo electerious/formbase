@@ -47,7 +47,7 @@
 
 	&__input[type='radio'][disabled] + &__label::before,
 	&__input[type='checkbox'][disabled] + &__label::before {
-		border-color: lighten($formbase__default, 10%);
+		border-color: lighten($formbase__default, 5%);
 		background-color: darken(white, 5%);
 		box-shadow: none;
 	}
