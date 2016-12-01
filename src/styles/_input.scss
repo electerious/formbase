@@ -14,7 +14,7 @@
 	transition: border-color $formbase__duration $formbase__timing;
 
 	&[disabled] {
-		border-color: ligthen($formbase__default, 10%);
+		border-color: lighten($formbase__default, 10%);
 		background-color: darken(white, 5%);
 		box-shadow: none;
 	}
