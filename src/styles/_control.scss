@@ -1,5 +1,7 @@
 .#{ $formbase__prefix }control {
 
+	// We use an absolute unit (px) for the control size to avoid half pixels.
+	// Half pixels would transform the circle of the radio control into an egg.
 	$size: 20px;
 
 	// Ensure that color is written in hex and escape the color,
@@ -58,6 +60,8 @@
 	}
 
 	&__input:checked + &__label::before {
+		// We use an absolute unit (px) for the background size to avoid half pixels.
+		// Half pixels would transform the dot into an egg.
 		background-size: 12px;
 	}
 
