@@ -17,6 +17,7 @@
 		border-color: lighten($formbase__default, 5%);
 		background-color: darken(white, 5%);
 		box-shadow: none;
+		cursor: not-allowed;
 	}
 
 	&:focus {
