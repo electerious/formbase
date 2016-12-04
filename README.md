@@ -15,6 +15,7 @@ formbase eliminates cross browser bugs, inconsistencies across systems and appli
 - [Setup](#setup)
 - [Usage](#usage)
 - [Options](#options)
+- [Semver strategy](#semver-strategy)
 
 ## Demos
 
@@ -110,3 +111,7 @@ $formbase__timing   : ease; // Transition timing
 
 @import "src/styles/main";
 ```
+
+## Semver strategy
+
+Any change to CSS rules whatsoever is considered backwards-breaking and will result in a new **major** release. Others changes with no impact on rendering are considered backwards-compatible and will result in a new **patch** release. No changes to CSS rules can add functionality in a backwards-compatible manner, therefore no changes are considered **minor**. 
