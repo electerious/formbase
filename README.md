@@ -101,17 +101,18 @@ Include the CSS file in the `head`…
 Import `src/styles/main.scss` directly to customize formbase:
 
 ```scss
-$formbase__prefix   : ''; // Class name prefix
-$formbase__gutter   : 1.8rem; // Base size for margin and padding
-$formbase__default  : #bbb; // Default color
-$formbase__active   : #0c69d6; // Active highlight color
-$formbase__shadow   : inset 0 1px 3px rgba(0, 0, 0, .05); // Shadow styling
-$formbase__duration : .3s; // Transition duration
-$formbase__timing   : ease; // Transition timing
+$formbase__prefix     : ''; // Class name prefix
+$formbase__gutter     : 1.8rem; // Base size for margin and padding
+$formbase__background : #fff; // Background color
+$formbase__default    : #bbb; // Default color
+$formbase__active     : #0c69d6; // Active highlight color
+$formbase__shadow     : inset 0 1px 3px rgba(0, 0, 0, .05); // Shadow styling
+$formbase__duration   : .3s; // Transition duration
+$formbase__timing     : ease; // Transition timing
 
 @import "src/styles/main";
 ```
 
 ## Semver strategy
 
-Any change to CSS rules whatsoever is considered backwards-breaking and will result in a new **major** release. Others changes with no impact on rendering are considered backwards-compatible and will result in a new **patch** release. No changes to CSS rules can add functionality in a backwards-compatible manner, therefore no changes are considered **minor**. 
+Any change to CSS rules whatsoever is considered backwards-breaking and will result in a new **major** release. Others changes with no impact on rendering are considered backwards-compatible and will result in a new **patch** release. No changes to CSS rules can add functionality in a backwards-compatible manner, therefore no changes are considered **minor**.
