@@ -6,7 +6,7 @@
 	margin: 0 0 $formbase__gutter/2;
 	padding: $formbase__gutter/3;
 	background: $formbase__background;
-	border: 1px solid $formbase__default;
+	border: 1px solid $formbase__border;
 	box-shadow: $formbase__shadow;
 	border-radius: 0;
 	outline: none;
@@ -14,7 +14,7 @@
 	transition: border-color $formbase__duration $formbase__timing;
 
 	&[disabled] {
-		border-color: lighten($formbase__default, 5%);
+		border-color: lighten($formbase__border, 5%);
 		background-color: darken($formbase__background, 5%);
 		box-shadow: none;
 		cursor: not-allowed;
