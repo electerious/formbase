@@ -25,7 +25,7 @@ formbase eliminates cross browser bugs, inconsistencies across systems and appli
 
 ## Features
 
-- Works in all modern browsers
+- Works in all modern browsers (and IE11)
 - No JavaScript, just CSS
 - Works with inputs, textareas, checkboxes and radio buttons
 - Zero dependencies
@@ -104,7 +104,8 @@ Import `src/styles/main.scss` directly to customize formbase:
 $formbase__prefix     : ''; // Class name prefix
 $formbase__gutter     : 1.8rem; // Base size for margin and padding
 $formbase__background : #fff; // Background color
-$formbase__default    : #bbb; // Default color
+$formbase__svg        : #000; // Fill color for svgs (hex value only!)
+$formbase__border     : #bbb; // Border color
 $formbase__active     : #0c69d6; // Active highlight color
 $formbase__shadow     : inset 0 1px 3px rgba(0, 0, 0, .05); // Shadow styling
 $formbase__duration   : .3s; // Transition duration
