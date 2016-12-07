@@ -19,6 +19,7 @@
 
 	// Label -------------------------------------------------------------- //
 	&__label {
+		display: block;
 		position: relative;
 		padding-left: calc(#{ $size } + #{ $formbase__gutter/3 });
 
