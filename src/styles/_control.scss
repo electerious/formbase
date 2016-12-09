@@ -12,7 +12,11 @@
 
 	// Input -------------------------------------------------------------- //
 	&__input {
-		display: none;
+		// Using display or visibility to hide the original input causes an error
+		// with the native HTML form validation as the browser can't focus hidden elements.
+		position: absolute;
+		opacity: 0;
+		pointer-events: none;
 	}
 
 	// Label -------------------------------------------------------------- //
