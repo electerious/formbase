@@ -111,7 +111,7 @@ $formbase__shadow     : inset 0 1px 3px rgba(0, 0, 0, .05); // Shadow styling
 $formbase__duration   : .3s; // Transition duration
 $formbase__timing     : ease; // Transition timing
 
-@import "src/styles/main";
+@import 'src/styles/main';
 ```
 
 ## Semver strategy
