@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Changed
 
 - Updated SASS syntax
+- Updated dependencies
 
 ## [6.0.1] - 2017-08-08
 
