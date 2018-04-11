@@ -39,12 +39,6 @@
 		}
 
 		&::before {
-			content: '';
-			position: absolute;
-			top: calc(50% - #{ $size/2 });
-			left: 0;
-			width: $size;
-			height: $size;
 			border-color: $formbase__border;
 			box-shadow: $formbase__shadow;
 			background: $formbase__background;
