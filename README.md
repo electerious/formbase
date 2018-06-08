@@ -4,7 +4,7 @@
 
 Better default styles for common input elements.
 
-![formbase](https://l.electerious.com/uploads/big/82bdef77407ed1cde763a83b34698831.png)
+![formbase](https://s.electerious.com/images/formbase/readme.png)
 
 formbase eliminates cross browser bugs, inconsistencies across systems and applies a beautiful default styling to several input elements.
 
