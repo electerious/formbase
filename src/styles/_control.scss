@@ -86,6 +86,10 @@
 		box-shadow: none;
 	}
 
+	&__input:focus + &__label::before {
+		border-color: $formbase__active;
+	}
+
 	&__input:checked + &__label::after {
 		// We use an absolute unit (px) for the background size to avoid half pixels.
 		// Half pixels would transform the dot into an egg.
