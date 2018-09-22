@@ -32,14 +32,14 @@ formbase eliminates cross browser bugs, inconsistencies across systems and appli
 
 ## Setup
 
-We recommend to install formbase using [Bower](https://bower.io/) or [npm](https://npmjs.com).
-
-```sh
-bower install formbase
-```
+We recommend to install formbase using [npm](https://npmjs.com) or [yarn](https://yarnpkg.com).
 
 ```sh
 npm install formbase
+```
+
+```sh
+yarn add formbase
 ```
 
 Include the CSS file in the `head`…
