@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [7.0.0] - 2018-07-28
 
-### New
+### Added
 
 - Focus styling for radio and checkbox control
 
@@ -32,7 +32,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [6.0.1] - 2017-08-08
 
-### New
+### Added
 
 - Added a changelog
 
