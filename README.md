@@ -27,7 +27,7 @@ formbase eliminates cross browser bugs, inconsistencies across systems and appli
 
 - Works in all modern browsers and IE11
 - No JavaScript, just CSS
-- Works with inputs, textareas, checkboxes and radio buttons
+- Works with inputs, textareas, selects, checkboxes and radio buttons
 - Zero dependencies
 
 ## Setup
