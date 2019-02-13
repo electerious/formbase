@@ -12,12 +12,15 @@
 	outline: none;
 	resize: vertical;
 	transition: border-color $formbase__duration $formbase__timing;
+	color: $formbase__color;
+	caret-color: $formbase__color;
 
 	&[disabled] {
 		border-color: lighten($formbase__border, 5%);
 		background-color: darken($formbase__background, 5%);
 		box-shadow: none;
 		cursor: not-allowed;
+		color: lighten($formbase__color, 5%);
 	}
 
 	&:focus {
