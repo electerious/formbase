@@ -32,7 +32,7 @@ formbase eliminates cross browser bugs, inconsistencies across systems and appli
 
 ## Setup
 
-We recommend to install formbase using [npm](https://npmjs.com) or [yarn](https://yarnpkg.com).
+We recommend installing formbase using [npm](https://npmjs.com) or [yarn](https://yarnpkg.com).
 
 ```sh
 npm install formbase
