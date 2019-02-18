@@ -26,6 +26,7 @@
 		position: relative;
 		padding-left: calc(#{ $size } + #{ $formbase__gutter/3 });
 		will-change: transform;
+		color: $formbase__color;
 
 		&::before,
 		&::after {
@@ -77,6 +78,7 @@
 	&__input[type='radio'][disabled] + &__label,
 	&__input[type='checkbox'][disabled] + &__label {
 		cursor: not-allowed;
+		color: lighten($formbase__color, 5%);
 	}
 
 	&__input[type='radio'][disabled] + &__label::before,
