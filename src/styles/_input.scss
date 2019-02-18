@@ -13,7 +13,6 @@
 	resize: vertical;
 	transition: border-color $formbase__duration $formbase__timing;
 	color: $formbase__color;
-	caret-color: $formbase__color;
 
 	&[disabled] {
 		border-color: lighten($formbase__border, 5%);
