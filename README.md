@@ -105,7 +105,7 @@ $formbase__prefix: ''; // Class name prefix
 $formbase__gutter: 1.8rem; // Base size for margin and padding
 $formbase__svg: #000; // Fill color for svgs (hex values only!)
 $formbase__color: #000; // Input and label color
-$formbase__placeholder: #999 !default; // Input placeholder color
+$formbase__placeholder: #999; // Input placeholder color
 $formbase__background: #fff; // Background color
 $formbase__border: #bbb; // Border color
 $formbase__active: #17f; // Active highlight color
