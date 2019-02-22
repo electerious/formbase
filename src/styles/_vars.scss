@@ -1,5 +1,6 @@
 $formbase__prefix: '' !default; // Class name prefix
 $formbase__gutter: 1.8rem !default; // Base size for margin and padding
+$formbase__radius: 0 !default; // Input border radius
 $formbase__svg: #000 !default; // Fill color for svgs (hex values only!)
 $formbase__color: #000 !default; // Input and label color
 $formbase__placeholder: #999 !default; // Input placeholder color

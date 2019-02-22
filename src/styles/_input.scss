@@ -8,7 +8,7 @@
 	background: $formbase__background;
 	border: 1px solid $formbase__border;
 	box-shadow: $formbase__shadow;
-	border-radius: 0;
+	border-radius: $formbase__radius;
 	outline: none;
 	resize: vertical;
 	transition: border-color $formbase__duration $formbase__timing;

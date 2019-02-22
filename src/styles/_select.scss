@@ -17,7 +17,7 @@
 	background-position: calc(100% - #{ $formbase__gutter/3 }) center;
 	border: 1px solid $formbase__border;
 	box-shadow: $formbase__shadow;
-	border-radius: 0;
+	border-radius: $formbase__radius;
 	outline: 0;
 	color: $formbase__color;
 

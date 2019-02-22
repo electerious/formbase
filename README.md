@@ -103,6 +103,7 @@ Import `src/styles/main.scss` directly to customize the look of formbase:
 ```scss
 $formbase__prefix: ''; // Class name prefix
 $formbase__gutter: 1.8rem; // Base size for margin and padding
+$formbase__radius: 0; // Input border radius
 $formbase__svg: #000; // Fill color for svgs (hex values only!)
 $formbase__color: #000; // Input and label color
 $formbase__placeholder: #999; // Input placeholder color
