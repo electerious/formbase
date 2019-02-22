@@ -9,10 +9,4 @@ const styles = tasks.styles({
 	to: './dist'
 })
 
-const watch = function() {
-	gulp.watch('./src/styles/**/*.scss', [ 'styles' ])
-}
-
-gulp.task('styles', styles)
-gulp.task('default', [ 'styles' ])
-gulp.task('watch', [ 'default' ], watch)
+gulp.task('default', gulp.series(styles))
