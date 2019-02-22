@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [8.0.0] - 2019-02-22
+
+### Added
+
+- CSS for consistent cross browser styling even without `normalize.css`
+- `$formbase__radius` option to change input border radius
+- `$formbase__color` option to change input color
+- `$formbase__placeholder` option to change input placeholder color
+
+### Changed
+
+- Default active color is now `#17f`
+
 ## [7.0.0] - 2018-07-28
 
 ### Added
