@@ -26,4 +26,21 @@
 		border-color: $formbase__active;
 	}
 
+	// Chrome, Firefox, Opera and Safari
+	&::placeholder {
+		color: $formbase__placeholder;
+		// Reset opacity for Firefox
+		opacity: 1;
+	}
+
+	// Internet Explorer
+	&:-ms-input-placeholder {
+		color: $formbase__placeholder;
+	}
+
+	// Edge
+	&::-ms-input-placeholder {
+		color: $formbase__placeholder;
+	}
+
 }
