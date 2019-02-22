@@ -110,6 +110,7 @@ $formbase__active: #0c69d6; // Active highlight color
 $formbase__shadow: inset 0 1px 3px rgba(0, 0, 0, .05); // Shadow styling
 $formbase__duration: .3s; // Transition duration
 $formbase__timing: ease; // Transition timing
+$formbase__color: #000; // Input and label color
 
 @import 'src/styles/main';
 ```
