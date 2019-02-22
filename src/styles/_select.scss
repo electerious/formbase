@@ -20,6 +20,10 @@
 	border-radius: $formbase__radius;
 	outline: 0;
 	color: $formbase__color;
+	// Consistent font styles for all browsers
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
 
 	&[disabled] {
 		border-color: lighten($formbase__border, 5%);

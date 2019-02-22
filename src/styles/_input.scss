@@ -13,6 +13,10 @@
 	resize: vertical;
 	transition: border-color $formbase__duration $formbase__timing;
 	color: $formbase__color;
+	// Consistent font styles for all browsers
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
 
 	&[disabled] {
 		border-color: lighten($formbase__border, 5%);
