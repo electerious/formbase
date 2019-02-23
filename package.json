@@ -1,6 +1,5 @@
 {
   "name": "formbase",
-  "moduleName": "formbase",
   "version": "8.0.1",
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
@@ -19,8 +18,7 @@
     "custom"
   ],
   "scripts": {
-    "start": "gulp watch",
-    "compile": "gulp"
+    "build": "node build.js"
   },
   "license": "MIT",
   "homepage": "https://github.com/electerious/formbase",
@@ -33,7 +31,6 @@
     "src"
   ],
   "devDependencies": {
-    "@electerious/basictasks": "5.0.3",
-    "gulp": "^4.0.0"
+    "rosid-handler-sass": "^6.0.4"
   }
 }
