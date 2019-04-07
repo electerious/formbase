@@ -7,7 +7,7 @@
 	// Convert hex color to string and ensure that it's working in url()
 	$svg: '%23' + str_slice(inspect($formbase__svg), 2);
 
-	margin: 0 0 $formbase__gutter/2;
+	margin: 0 0 $formbase__margin;
 	box-sizing: border-box;
 
 	// Input -------------------------------------------------------------- //
@@ -24,7 +24,7 @@
 		// Force display block to support multiple lines
 		display: block;
 		position: relative;
-		padding-left: calc(#{ $size } + #{ $formbase__gutter/3 });
+		padding-left: calc(#{ $size } + #{ $formbase__padding });
 		will-change: transform;
 		color: $formbase__color;
 

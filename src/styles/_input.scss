@@ -3,8 +3,8 @@
 	appearance: none;
 	box-sizing: border-box;
 	width: 100%;
-	margin: 0 0 $formbase__gutter/2;
-	padding: $formbase__gutter/3;
+	margin: 0 0 $formbase__margin;
+	padding: $formbase__padding;
 	background: $formbase__background;
 	border: 1px solid $formbase__border;
 	box-shadow: $formbase__shadow;
