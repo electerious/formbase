@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [9.0.0] - 2019-04-07
+
+### Changed
+
+- `$formbase__gutter` is now separated into `$formbase__margin` and `$formbase__padding`
+
+### Fixed
+
+- Long select option text continues below select arrow
+
 ## [8.0.2] - 2019-02-23
 
 ### Changed
