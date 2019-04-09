@@ -1,9 +1,5 @@
 .#{ $formbase__prefix }control {
 
-	// We use an absolute unit (px) for the control size to avoid half pixels.
-	// Half pixels would transform the circle of the radio control into an egg.
-	$size: 20px;
-
 	// Convert hex color to string and ensure that it's working in url()
 	$svg: '%23' + str_slice(inspect($formbase__svg), 2);
 
@@ -24,7 +20,7 @@
 		// Force display block to support multiple lines
 		display: block;
 		position: relative;
-		padding-left: calc(#{ $size } + #{ $formbase__padding });
+		padding-left: calc(#{ $formbase__control_size } + #{ $formbase__padding });
 		will-change: transform;
 		color: $formbase__color;
 
@@ -32,10 +28,10 @@
 		&::after {
 			content: '';
 			position: absolute;
-			top: calc(50% - #{ $size/2 });
+			top: calc(50% - #{ $formbase__control_size/2 });
 			left: 0;
-			width: $size;
-			height: $size;
+			width: $formbase__control_size;
+			height: $formbase__control_size;
 			border: 1px solid transparent;
 		}
 

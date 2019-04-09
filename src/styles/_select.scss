@@ -3,22 +3,19 @@
 	// Convert hex color to string and ensure that it's working in url()
 	$svg: '%23' + str_slice(inspect($formbase__svg), 2);
 
-	// Size of the background
-	$size: 12px;
-
 	appearance: none;
 	box-sizing: border-box;
 	margin: 0 0 $formbase__margin;
 	padding: $formbase__padding;
 	// Avoid that the option text continues below the background.
 	// Use calc as all values might be specified in a different unit.
-	padding-right: calc(#{ $formbase__padding + $formbase__padding/2 } + #{ $size });
+	padding-right: calc(#{ $formbase__padding + $formbase__padding/2 } + #{ $formbase__select_size });
 	width: 100%;
 	background: $formbase__background;
 	// IE only accepts escaped data in url() and SASS has no escape function to do this dynamic
 	// <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="512" height="512" viewBox="0 0 512 512" xml:space="preserve"><path fill="${ $svg }" d="M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z"/></svg>
 	background-image: url('data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20viewBox%3D%220%200%20512%20512%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22#{ $svg }%22%20d%3D%22M256%2C298.3L256%2C298.3L256%2C298.3l174.2-167.2c4.3-4.2%2C11.4-4.1%2C15.8%2C0.2l30.6%2C29.9c4.4%2C4.3%2C4.5%2C11.3%2C0.2%2C15.5L264.1%2C380.9c-2.2%2C2.2-5.2%2C3.2-8.1%2C3c-3%2C0.1-5.9-0.9-8.1-3L35.2%2C176.7c-4.3-4.2-4.2-11.2%2C0.2-15.5L66%2C131.3c4.4-4.3%2C11.5-4.4%2C15.8-0.2L256%2C298.3z%22/%3E%3C/svg%3E');
-	background-size: 12px;
+	background-size: $formbase__select_size;
 	background-repeat: no-repeat;
 	background-position: calc(100% - #{ $formbase__padding }) center;
 	border: 1px solid $formbase__border;

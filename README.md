@@ -105,8 +105,10 @@ Import `src/styles/main.scss` directly to customize the look of formbase:
 $formbase__prefix: ''; // Class name prefix
 $formbase__margin: .9rem; // Margin
 $formbase__padding: .6rem; // Padding
+$formbase__select_size: 12px; // Size of the checkbox and radio button (1)
+$formbase__control_size: 20px; // Size of the select arrow
 $formbase__radius: 0; // Input border radius
-$formbase__svg: #000; // Fill color for svgs (hex values only!)
+$formbase__svg: #000; // Hex color for svgs (2)
 $formbase__color: #000; // Input and label color
 $formbase__placeholder: #999; // Input placeholder color
 $formbase__background: #fff; // Background color
@@ -115,6 +117,9 @@ $formbase__active: #17f; // Active highlight color
 $formbase__shadow: inset 0 1px 3px rgba(0, 0, 0, .05); // Shadow styling
 $formbase__duration: .3s; // Transition duration
 $formbase__timing: ease; // Transition timing
+
+// (1) It's recommended to use an absolute unit (px) for the control size to avoid half pixels. Half pixels would transform the circle of the radio control into an egg.
+// (2) Only works with hex values
 
 @import 'src/styles/main';
 ```
