@@ -19,7 +19,7 @@
   "ignore": [
     "**/.*",
     "demos",
-    "gulpfile.js",
+    "build.js",
     "package.json"
   ],
   "license": "MIT",
