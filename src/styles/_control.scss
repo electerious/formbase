@@ -25,6 +25,8 @@
 		&::before,
 		&::after {
 			content: '';
+			// Apply display block for IE11 so flex-shrink works correctly
+			display: block;
 			width: $formbase__control_size;
 			height: $formbase__control_size;
 			border: 1px solid transparent;
