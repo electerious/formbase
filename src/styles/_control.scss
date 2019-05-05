@@ -17,32 +17,33 @@
 
 	// Label -------------------------------------------------------------- //
 	&__label {
-		// Force display block to support multiple lines
-		display: block;
+		display: flex;
+		align-items: center;
 		position: relative;
-		padding-left: calc(#{ $formbase__control_size } + #{ $formbase__padding });
-		will-change: transform;
 		color: $formbase__color;
 
 		&::before,
 		&::after {
 			content: '';
-			position: absolute;
-			top: calc(50% - #{ $formbase__control_size/2 });
-			left: 0;
 			width: $formbase__control_size;
 			height: $formbase__control_size;
 			border: 1px solid transparent;
 		}
 
 		&::before {
+			flex-shrink: 0;
+			margin-right: $formbase__padding;
 			border-color: $formbase__border;
 			box-shadow: $formbase__shadow;
 			background: $formbase__background;
-			background-size: 0;
 		}
 
 		&::after {
+			position: absolute;
+			// It's sadly very hard to render the circle perfectly centered, but by using 48% is correct in most
+			// situations. It always depends on previous elements and the amount of half-pixels.
+			top: calc(48% - #{ $formbase__control_size/2 });
+			left: 0;
 			// We need another element for the radio dot and checkbox checkmark as Safari 10.0.1 has problems
 			// when animating the background-size of an element that has a background color and background image.
 			// Using another element and transforming it with transform is also better than animating background.
@@ -51,7 +52,6 @@
 			background-position: center;
 			transform: scale(0);
 			transition: transform $formbase__duration $formbase__timing;
-			will-change: transform;
 		}
 	}
 

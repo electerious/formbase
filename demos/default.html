@@ -23,9 +23,6 @@
 		.label {
 			display: block;
 			margin-bottom: .3rem;
-		}
-
-		label {
 			font-size: .85rem;
 		}
 
@@ -93,6 +90,11 @@
 	<textarea class="input" id="message" name="message" rows="8" cols="40"></textarea>
 
 	<div class="control">
+		<input class="control__input" id="optionlong" type="radio" name="option" value="optionlong" checked>
+		<label class="control__label" for="optionlong">This is a option with a very long text to test if the control alignes centered when the text wraps</label>
+	</div>
+
+	<div class="control">
 		<input class="control__input" id="optionone" type="radio" name="option" value="optionone" checked>
 		<label class="control__label" for="optionone">Option One</label>
 	</div>
@@ -105,6 +107,11 @@
 	<div class="control">
 		<input class="control__input" id="optionthree" type="radio" name="option" value="optionthree" disabled>
 		<label class="control__label" for="optionthree">Option Three</label>
+	</div>
+
+	<div class="control">
+		<input class="control__input" id="checklong" type="checkbox" name="checklong" value="checklong" checked>
+		<label class="control__label" for="checklong">This is a check with a very long text to test if the control alignes centered when the text wraps</label>
 	</div>
 
 	<div class="control">
