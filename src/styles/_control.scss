@@ -42,8 +42,8 @@
 
 		&::after {
 			position: absolute;
-			// It's sadly very hard to render the circle perfectly centered, but by using 48% is correct in most
-			// situations. It always depends on previous elements and the amount of half-pixels.
+			// It's sadly very hard to render the element perfectly centered, but by using 48% is correct in most
+			// situations. It always depends on previous elements and the amount of half pixels.
 			top: calc(48% - #{ $formbase__control_size/2 });
 			left: 0;
 			// We need another element for the radio dot and checkbox checkmark as Safari 10.0.1 has problems
