@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [11.0.0] - 2019-07-09
 
+### Changed
+
+- Improved centering of checkbox/radio button
+
 ### Fixed
 
 - HTML form validation message
