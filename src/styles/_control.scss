@@ -3,6 +3,7 @@
 	// Convert hex color to string and ensure that it's working in url()
 	$svg: '%23' + str_slice(inspect($formbase__svg), 2);
 
+	position: relative;
 	margin: 0 0 $formbase__margin;
 	box-sizing: border-box;
 
@@ -12,6 +13,14 @@
 		// with the native HTML form validation as the browser can't focus hidden elements.
 		position: absolute;
 		opacity: 0;
+		// Element should have the same size and position as the checkbox/radio button,
+		// so the browser shows the HTML form validation message at the correct location.
+		appearance: none;
+		margin: 0;
+		left: 0;
+		top: calc(50% - #{ $formbase__control_size/2 });
+		width: $formbase__control_size;
+		height: $formbase__control_size;
 		pointer-events: none;
 	}
 
