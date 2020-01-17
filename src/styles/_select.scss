@@ -44,4 +44,8 @@
 		display: none;
 	}
 
+	& > option[selected]:disabled {
+		display: none;
+	}
+
 }
