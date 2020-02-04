@@ -43,6 +43,7 @@
 
 		&::before {
 			flex-shrink: 0;
+			transition: border-color $formbase__duration $formbase__timing;
 			margin-right: $formbase__padding;
 			border-color: $formbase__border;
 			box-shadow: $formbase__shadow;

@@ -22,6 +22,7 @@
 	box-shadow: $formbase__shadow;
 	border-radius: $formbase__radius;
 	outline: 0;
+	transition: border-color $formbase__duration $formbase__timing;
 	color: $formbase__color;
 	// Consistent font styles for all browsers
 	font-family: inherit;
