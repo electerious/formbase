@@ -31,6 +31,6 @@
     "src"
   ],
   "devDependencies": {
-    "rosid-handler-sass": "^6.0.4"
+    "rosid-handler-sass": "^7.0.0"
   }
 }
