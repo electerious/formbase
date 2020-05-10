@@ -1,9 +1,7 @@
 'use strict'
 
-const { writeFile } = require('fs')
-const { promisify } = require('util')
+const { writeFile } = require('fs').promises
 const sass = require('rosid-handler-sass')
-const save = promisify(writeFile)
 
 sass('src/styles/main.scss', {
 
@@ -11,6 +9,6 @@ sass('src/styles/main.scss', {
 
 }).then((data) => {
 
-	return save('dist/formbase.min.css', data)
+	return writeFile('dist/formbase.min.css', data)
 
 })
