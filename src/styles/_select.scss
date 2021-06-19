@@ -9,7 +9,7 @@
 	padding: $formbase__padding;
 	// Avoid that the option text continues below the background.
 	// Use calc as all values might be specified in a different unit.
-	padding-right: calc(#{ $formbase__padding + $formbase__padding/2 } + #{ $formbase__select_size });
+	padding-right: calc(#{ $formbase__padding + math.div($formbase__padding, 2) } + #{ $formbase__select_size });
 	width: 100%;
 	background: $formbase__background;
 	// IE only accepts escaped data in url() and SASS has no escape function to do this dynamic

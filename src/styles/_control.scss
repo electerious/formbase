@@ -18,7 +18,7 @@
 		appearance: none;
 		margin: 0;
 		left: 0;
-		top: calc(50% - #{ $formbase__control_size/2 });
+		top: calc(50% - #{ math.div($formbase__control_size, 2) });
 		width: $formbase__control_size;
 		height: $formbase__control_size;
 		pointer-events: none;
@@ -54,7 +54,7 @@
 			position: absolute;
 			// It's sadly very hard to render the element perfectly centered, but by using 50% - 1px is correct in most
 			// situations. It always depends on previous elements and the amount of half pixels.
-			top: calc(50% - #{ $formbase__control_size/2 } - 1px);
+			top: calc(50% - #{ math.div($formbase__control_size, 2) } - 1px);
 			left: 0;
 			// We need another element for the radio dot and checkbox checkmark as Safari 10.0.1 has problems
 			// when animating the background-size of an element that has a background color and background image.
