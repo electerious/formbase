@@ -1,7 +1,13 @@
+@use 'sass:color';
+@use 'sass:meta';
+@use 'sass:string';
+@use 'sass:math';
+@use 'vars' as *;
+
 .#{ $formbase__prefix }select {
 
 	// Convert hex color to string and ensure that it's working in url()
-	$svg: '%23' + str_slice(inspect($formbase__svg), 2);
+	$svg: '%23' + string.slice(meta.inspect($formbase__svg), 2);
 
 	appearance: none;
 	box-sizing: border-box;
@@ -30,11 +36,11 @@
 	line-height: 1.15;
 
 	&[disabled] {
-		border-color: lighten($formbase__border, 5%);
-		background-color: darken($formbase__background, 5%);
+		border-color: color.adjust($formbase__border, $lightness: 5%);
+		background-color: color.adjust($formbase__background, $lightness: -5%);
 		box-shadow: none;
 		cursor: not-allowed;
-		color: lighten($formbase__color, 5%);
+		color: color.adjust($formbase__color, $lightness: 5%);
 	}
 
 	&:focus {

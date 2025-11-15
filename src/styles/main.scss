@@ -2,9 +2,9 @@
 @use 'sass:math';
 
 // Variables --------------------------------------------------------- //
-@import 'vars';
+@use 'vars';
 
 // Styles ------------------------------------------------------------ //
-@import 'input';
-@import 'control';
-@import 'select';
+@use 'input';
+@use 'control';
+@use 'select';
