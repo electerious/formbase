@@ -1,10 +1,7 @@
-// Namespaces -------------------------------------------------------- //
-@use 'sass:math';
-
 // Variables --------------------------------------------------------- //
-@use 'vars';
+@import 'vars';
 
 // Styles ------------------------------------------------------------ //
-@use 'input';
-@use 'control';
-@use 'select';
+@import 'input';
+@import 'control';
+@import 'select';
